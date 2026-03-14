@@ -1,9 +1,10 @@
 ---
+
 layout: page
 title: About
 icon: fas fa-info-circle
 order: 4
---------
+---
 
 ## Hello 👋
 
@@ -38,6 +39,15 @@ As I learn more, I plan to add:
 * programming tutorials
 * algorithm practice
 
----
+
 
 Thanks for visiting my site 🚀
+
+<!-- ---
+# the default layout is 'page'
+icon: fas fa-info-circle
+order: 4
+---
+
+> Add Markdown syntax content to file `_tabs/about.md`{: .filepath } and it will show up on this page.
+{: .prompt-tip } -->
