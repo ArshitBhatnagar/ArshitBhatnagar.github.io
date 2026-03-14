@@ -2,17 +2,47 @@
 layout: default
 ---
 
-<div style="text-align:center; margin-top:40px;">
+<section style="text-align:center; margin-top:50px;">
 
 <h1>🐍 Arshit's Python Lab</h1>
 
-<p>Welcome to my Python experiments and coding notes.</p>
+<p style="font-size:18px;">
+Learning Python, building small tools, and documenting my coding journey.
+</p>
+
+<p>
+<a href="/categories/" class="btn btn-primary">Browse Posts</a>
+<a href="/about/" class="btn btn-outline-primary">About Me</a>
+</p>
+
+</section>
+
+<hr>
+
+<h2>🚀 Featured Areas</h2>
+
+<div style="display:flex; gap:20px; flex-wrap:wrap;">
+
+<div style="flex:1; min-width:200px;">
+<h3>Python Projects</h3>
+<p>Small tools and scripts I build while learning Python.</p>
+</div>
+
+<div style="flex:1; min-width:200px;">
+<h3>Automation</h3>
+<p>Scripts that automate everyday tasks.</p>
+</div>
+
+<div style="flex:1; min-width:200px;">
+<h3>Learning Notes</h3>
+<p>Concepts and ideas I discover while studying programming.</p>
+</div>
 
 </div>
 
 <hr>
 
-<h2>Latest Posts</h2>
+<h2>📝 Latest Posts</h2>
 
 <ul>
 {% for post in site.posts limit:5 %}
